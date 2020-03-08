@@ -78,3 +78,19 @@ Steps for getting a customizable terminal config.
 Now you should have a terminal that looks something like this:
 
 ![Terminal](./terminal.png)
+
+## Powerline install notes for Windows (WSL)
+
+iTerm is not available for Windows, [Hyper](https://hyper.is/) is a good alternative. You will need to search Google for setting up `zsh` and `oh-my-zsh` in WSL. 
+
+Then, you'll need to install the Powerline fonts manually.
+
+1. Clone the repo from here: https://github.com/powerline/fonts.
+
+2. `cd` into the repo root and install the fonts with Powershell:
+
+    - ```ps1
+      .\install.ps1
+      ```
+
+3. Select a Powerline compatible font in your terminal emulator (Hyper, for example).
